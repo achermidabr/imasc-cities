@@ -64,3 +64,40 @@ Quarkus offers out-of-the-box graphql integration, by accessing the following pl
 - To play around with your GraphQL queries: [GraphQL UI...] http://localhost:8080/q/graphql-ui
 
 - To check out your GraphQL schema: [GraphQL Schema...] http://localhost:8080/graphql/schema.graphql
+
+### GraphQL call examples
+```graphql
+{
+  cities {
+  	codIbge
+  	codTOM
+  	state
+  	name
+  }
+  
+  citiesByState(state: AC){
+    codIbge
+  	codTOM
+  	name
+    municipalizationLevel
+  }
+  
+  cityByIbge(code: 4208203){
+  	codTOM
+  	state
+  	name
+    municipalizationLevel
+    police {
+      name
+    }
+    regional {
+      resume
+      description
+      abbreviation
+    }
+    basin {
+      name
+    }
+  }
+}
+```

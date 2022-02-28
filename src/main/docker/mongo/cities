@@ -864,7 +864,7 @@
 {"_id":"857","state":"MG","name":"SANTA RITA DE JACUTINGA","codIbge":3159308,"codTOM":0,"municipalizationLevel":0}
 {"_id":"10016","state":"SP","name":"SANTOS","codIbge":3548500,"codTOM":0,"municipalizationLevel":0}
 {"_id":"10023","state":"BA","name":"DIAS D'ÁVILA","codIbge":2910057,"codTOM":0,"municipalizationLevel":0}
-{"_id":"10024","state":"SC","name":"ITAJAÍ","codIbge":4208203,"codTOM":8161,"municipalizationLevel":3}
+{"_id":"10024","state":"SC","name":"ITAJAÍ","codIbge":4208203,"codTOM":8161,"municipalizationLevel":3,"regional":"ITJ"}
 {"_id":"10022","state":"RJ","name":"CAMPOS DOS GOYTACAZES","codIbge":3301009,"codTOM":0,"municipalizationLevel":0}
 {"_id":"10025","state":"SP","name":"PAULÍNIA","codIbge":3536505,"codTOM":0,"municipalizationLevel":0}
 {"_id":"10026","state":"SP","name":"SANTO ANDRÉ","codIbge":3547809,"codTOM":0,"municipalizationLevel":0}
